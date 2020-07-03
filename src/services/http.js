@@ -1,3 +1,4 @@
+const fetch = require("node-fetch").default;
 import download from "downloadjs";
 
 const METHOD = { GET: "GET", POST: "POST", PUT: "PUT", DELETE: "DELETE" };
